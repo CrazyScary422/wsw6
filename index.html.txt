@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>WSW Playcode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">WSW</div>
+    <h1>World Script Web</h1>
+  </header>
+
+  <main>
+    <section class="editor">
+      <div>
+        <h2>HTML</h2>
+        <textarea id="html-code"></textarea>
+      </div>
+      <div>
+        <h2>CSS</h2>
+        <textarea id="css-code"></textarea>
+      </div>
+      <div>
+        <h2>JavaScript</h2>
+        <textarea id="js-code"></textarea>
+      </div>
+    </section>
+
+    <section class="preview">
+      <h2>Visualização</h2>
+      <iframe id="output"></iframe>
+    </section>
+  </main>
+
+  <button onclick="runCode()">Executar</button>
+  <script src="script.js"></script>
+</body>
+</html>
